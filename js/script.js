@@ -3,12 +3,14 @@
 // Created by: Janet Do
 // Created on: Sep 2020
 // This file generates user input
-function enterClicked() {
+function calculate() {
   // input
-  const streetName = document.getElementById("streetName").value
-  const streetNumber = parseInt(document.getElementById("streetNumber").value)
+  const base = parseInt(document.getElementById("base").value)
+  const height = parseInt(document.getElementById("height").value)
+
+  // process
+  const area = base * height / 2
 
   // output
-  document.getElementById("address").innerHTML =
-    "Your address is: " + streetNumber + " " + streetName + "."
+  document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
 }
