@@ -35,6 +35,7 @@
         </div>
       </header>
       <main class="mdl-layout__content">
+        <img src="images/fantabulous-image.jpeg" alt="Fanta Bottle" />
         <!-- Simple Textfield -->
         <form action="#">
           <p>base</p>
@@ -43,11 +44,9 @@
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="base-of-triangle"
+              id="base"
             />
-            <label class="mdl-textfield__label" for="base-of-triangle"
-              >base ...</label
-            >
+            <label class="mdl-textfield__label" for="base">base ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
@@ -59,11 +58,9 @@
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="height-of-triangle"
+              id="height"
             />
-            <label class="mdl-textfield__label" for="height-of-triangle"
-              >height...</label
-            >
+            <label class="mdl-textfield__label" for="height">height...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
@@ -75,12 +72,13 @@
         >
           Calculate
         </button>
-        <div id="user-info">
-          <div id="address"></div>
+        <th>
+          <h3>Formula</h3>
+          <h3>A = b * h / 2</h3>
+        </th>
+        <div id="area">
           <br />
-          <div id="fanta-bottle">
-            <img src="images/fantabulous-image.jpeg" alt="Fanta Bottle" />
-          </div>
+          <div id="fanta-bottle"></div>
         </div>
       </main>
     </div>

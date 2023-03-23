@@ -2,7 +2,8 @@
 //
 // Created by: Janet Do
 // Created on: Sep 2020
-// This file generates user input
+// This file generates the area of a triangle
+"use strict"
 function calculate() {
   // input
   const base = parseInt(document.getElementById("base").value)
