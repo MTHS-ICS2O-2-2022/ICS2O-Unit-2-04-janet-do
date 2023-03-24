@@ -46,11 +46,10 @@ body {
   font-size: 1.25rem;
 }
 
-/* Fanta image */
 #fanta-bottle {
   display: block;
   margin-left: 800px;
-  margin-right: 1000px;
-  margin-top: -190px;
-  float:right;
+  margin-right: 500px;
+  margin-top: -500px;
 }
+
