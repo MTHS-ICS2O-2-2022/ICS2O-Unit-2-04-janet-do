@@ -49,7 +49,8 @@ body {
 /* Fanta image */
 #fanta-bottle {
   display: block;
-  margin-left: 300px;
-  margin-right: 100px;
+  margin-left: 800px;
+  margin-right: 1000px;
   margin-top: -190px;
+  float:right;
 }
