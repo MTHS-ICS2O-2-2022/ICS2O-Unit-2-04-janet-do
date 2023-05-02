@@ -1,4 +1,4 @@
-// Created by: Mr Coxall
+// Created by: Janet
 // Created on: Sep 2020
 //
 // This program finds the area of a triangle
